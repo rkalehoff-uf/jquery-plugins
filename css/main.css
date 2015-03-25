@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1em;
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    margin-top: 3em;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 1em;
+}
