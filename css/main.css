@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
